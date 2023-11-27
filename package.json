@@ -1,0 +1,23 @@
+{
+  "name": "http-server-module-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app/main.ts",
+    "start:dev": "ts-node src/app/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^20.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
